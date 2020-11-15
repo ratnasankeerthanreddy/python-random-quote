@@ -6,7 +6,7 @@ def main():
  #print("Keep it logically awesome.")
  f.close()
  l=len(quotes)
- r=random.randint(0,l)
+ r=random.randint(0,l-1)
  print(quotes[r])
 
 if __name__== "__main__":
